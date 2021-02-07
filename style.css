@@ -175,27 +175,23 @@ body {
 }
 
 .page-footer a {
-  margin-left: 56px;
+  
   color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
 
-.footer-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+  align-items: center;
 }
 
-.footer-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
-}
-
-.instagram {
-background-image: url('img/instagram.png'); 
-background-position: left;
-background-repeat: no-repeat;
-height: 25;
-width: 25;
+.telegram {
+  margin: 0 20px;
 }
